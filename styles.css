@@ -1,0 +1,241 @@
+a{
+     color: inherit;
+}
+
+ #title{
+     box-sizing: content-box;
+     padding: 20px 0 20px;
+     background: linear-gradient(45deg, rgb(16, 16, 16), #343333);
+     background-size: 180px 90px;
+     background-repeat: repeat;
+     padding-left: 25px;
+ }
+ 
+ #navigation{
+     width: 100%;
+     margin: 0px auto;
+     box-sizing: content-box;
+     overflow: hidden;
+     padding-left: 15px;
+     padding-right:20px;
+     font-weight: bold;
+     table{
+          width: 60%
+     }
+     td{
+          padding: 15px;
+          text-align: center;
+          color: black;
+     }
+     td:hover{background-color: black;
+               color: white;}
+ }
+
+ #bn{
+     width: 100%;
+     background: #e6e6e6 ;
+     padding: 10px 0 10px;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+
+ body{
+     font-family: Tahoma;
+     color: #444;
+     letter-spacing: 1px;
+ }
+ 
+ #title{
+     box-sizing: content-box;
+     padding: 20px 0 20px;
+     background: linear-gradient(45deg, rgb(16, 16, 16), #343333);
+     background-size: 180px 90px;
+     background-repeat: repeat;
+     padding-left: 25px;
+ }
+ 
+ #navigation{
+     width: 100%;
+     margin: 0px auto;
+     box-sizing: content-box;
+     overflow: hidden;
+     padding-left: 15px;
+     padding-right:20px;
+     font-weight: bold;
+     table{
+          width: 60%
+     }
+     td{
+          padding: 15px;
+          text-align: center;
+          color: black;
+     }
+     td:hover{background-color: black;
+               color: white;}
+ }
+
+ #bn{
+     width: 100%;
+     background: #e6e6e6 ;
+     padding: 10px 0 10px;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ 
+.img1 {
+     position: absolute;
+     margin-top: 30px;
+     margin-bottom: 0px;
+     display: block;
+     padding: 15px;
+} 
+
+.img1 img {
+     object-fit: cover;
+     border-radius: 5px;
+     display: block;
+}
+
+.img1 .text1{
+     box-sizing: border-box;
+     position: absolute;
+     color: white;
+     font-weight: normal;
+     text-align: left;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+
+.img1 .box{
+     box-sizing: border-box;
+     width: 20px;
+     height: 5px;
+     border-radius: 40%;
+     background-color: black;
+}
+
+#banner{
+     position: absolute;
+     font-size: smaller;
+     color: white;
+     box-sizing: border-box;
+     height: 23px;
+     border-radius: 20px;
+     background-color: rgb(23, 23, 23);
+     text-align: center;
+     padding: 2px;
+     
+}
+
+.img1 .date{
+     box-sizing: border-box;
+     position: absolute;
+     color: white;
+     font-weight: light;
+     text-align: left;
+     font-size: small;
+}
+
+.browse{
+     margin-top: 40px;
+     position: absolute;
+     width: 100%;
+     box-sizing: content-box;
+     overflow: visible;
+     padding-left: 15px;
+}
+
+.browse .text1{
+     box-sizing: border-box;
+     position: absolute;
+     color: black;
+     font-weight: normal;
+     text-align: center;
+     word-wrap: break-word;
+     font-size: 25px;
+     
+     table{
+          width: 100%;
+     }
+     td{
+          width: max-content;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 90px;
+          text-align: center;
+          padding-right: 75px;
+          border-radius: 5px;
+     }
+     td:hover{background-color: black;
+          color: white;
+     }
+}
+
+.news{
+     position:absolute;
+}
+
+.news .text2{
+     padding-left: 30px;
+     float: right;
+     font-size: 25px;
+     width: 350px;
+     color: black;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+
+.news .date{
+     float: right;
+     box-sizing: border-box;
+     position: absolute;
+     color: rgb(118, 118, 118);
+     font-weight: light;
+     text-align: left;
+     font-size: small;
+}
+
+.scroll{
+    height: 375px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.modal {
+     display: none; 
+     position: fixed;
+     z-index: 1; 
+     left: 17%;
+     top: 2%;
+     width: 66%;
+     height: 96%;
+     overflow: auto;
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .modal-content {
+     background-color: #fefefe;
+     padding: 2px;
+     margin-left: 4%;
+     width: 90%;
+ }
+ 
+ .modal img{
+     width: 850px;
+     height: 550px;
+     padding-left: 2%;
+ }
+
+ .close {
+     color: #000000;
+     float: right;
+     font-size: 30px;
+     font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+     cursor: pointer;
+ }
